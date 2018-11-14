@@ -136,6 +136,7 @@ public class EmployeeServiceImpl implements IEmployeeService {
  			
  			//把id方法list中
  			jedis.lpush("eventList", event3.getEventId().toString());
+		system.out.println("hahahhahahhhah")
  		} catch (Exception e) {
  			
  		}finally {
